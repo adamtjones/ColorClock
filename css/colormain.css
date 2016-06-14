@@ -1,0 +1,21 @@
+#txt {
+	font-size: 150px;
+	margin: 0% auto;
+	width: 39%;
+	height: 400px;
+	margin-top: 200px;
+	font-family: Arial;
+	display: block;
+	color: orange;
+}
+
+#secondClock {
+	font-size: 150px;
+	margin: 0% auto;
+	width: 39%;
+	height: 400px;
+	margin-top: 200px;
+	font-family: Arial;
+	display: block;
+	color: teal;
+}
