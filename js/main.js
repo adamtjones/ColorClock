@@ -6,9 +6,10 @@ function startTime() {
 	m = checkTime(m);
 	s = checkTime(s);
 	document.getElementById('txt').innerHTML = h + ":" + m + ":" + s;
-	var t = setTimeout(startTime, 500);
+	
 }
 
+var t = setTimeout(startTime, 500);
 function checkTime(i) {
 	if (i<10) {i = "0" + i};
 	return i;
